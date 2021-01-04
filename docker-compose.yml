@@ -1,0 +1,9 @@
+version: "2.4"
+services:
+        neelaksh_day7:
+                image: newdevops:v1
+                build:
+                        context: .
+                container_name: day7_nginx
+                ports:
+                        - "5656:80"
